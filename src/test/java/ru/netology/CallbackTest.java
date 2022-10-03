@@ -1,4 +1,5 @@
 package ru.netology;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
@@ -23,7 +24,8 @@ class CallbackTest {
 
     @BeforeAll
     static void setUpAll() {
-        WebDriverManager.chromedriver().setup();;
+        WebDriverManager.chromedriver().setup();
+        ;
     }
 
     @BeforeEach
